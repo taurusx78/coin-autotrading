@@ -16,7 +16,6 @@ Python을 이용한 가상화폐 자동매매 프로그램으로 목표 매수/�
 
 - 주식 투자 시 자주 사용되는 변동성 돌파 전략은 상승장에서 설정된 목표가 도달 시 매수하고 종가에 매도하는 단순한 방식이었기 때문에, 주식 시장과 달리 변동성이 매우 큰 가상화폐 시장에 적용할 경우 오히려 큰 손실을 입게 되는 문제 발생한다.
 - 매수 후 종가에 매도하는 대신 매수가에서 일정 기준 이상 상승/하락 시 매도한다면 좀 더 높은 수익률을 달성할 수 있을 것이라 판단, 매도 기준을 설정하기 위한 변수를 추가해 백테스팅을 진행하고 그 기준을 프로그램에 적용하였다.
-- (참고) https://wikidocs.net/book/1665
 <br>
 
 ## 한계
@@ -55,3 +54,7 @@ scp -P 포트번호 파일경로\파일명.py root@우분투서버고정IP:/업�
 # scp -P 1028 C:\Users\JIN\PycharmProjects\autotrading\Main\autotrading.py root@106.10.39.203:/home
 ```
 <br>
+
+## 참고
+- https://wikidocs.net/book/1665
+- https://github.com/youtube-jocoding/pyupbit-autotrade
